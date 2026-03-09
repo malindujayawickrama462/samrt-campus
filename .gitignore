@@ -1,0 +1,16 @@
+# Environment script (may contain secrets)
+set-env.ps1
+
+# Spring Boot
+target/
+*.jar
+*.war
+*.log
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Local config
+application-local.properties

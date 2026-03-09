@@ -1,0 +1,10 @@
+# Copy to set-env.ps1 and fill in your values
+# Run before starting: . .\set-env.ps1
+
+$env:GOOGLE_CLIENT_ID = "YOUR_GOOGLE_CLIENT_ID"
+$env:GOOGLE_CLIENT_SECRET = "YOUR_GOOGLE_CLIENT_SECRET"
+$env:DB_USERNAME = "root"
+$env:DB_PASSWORD = "YOUR_DB_PASSWORD"
+$env:JWT_SECRET = "smartcampus-secret-key-should-be-very-long-for-security-2026"
+
+Write-Host "Environment variables set. Start the app with: mvn spring-boot:run" -ForegroundColor Green
